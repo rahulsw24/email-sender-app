@@ -89,7 +89,28 @@ Tone: Friendly
 
 ## 📸 Screenshots
 
-Add screenshots of the UI and generated emails here if required.
+### 📨 Prompt Input Page
+
+![Screenshot 1](./assets/screenshot1.png)
+
+### ✨ Email Generated with AI
+
+![Screenshot 2](./assets/screenshot2.png)
+
+### 📋 Editable Output
+
+![Screenshot 3](./assets/screenshot3.png)
+
+### 📨 Recipient Input + Sending
+
+![Screenshot 4](./assets/screenshot4.png)
+
+### ✅ Sent Confirmation
+
+![Screenshot 5](./assets/screenshot5.png)
+
+### Email Received
+![Screenshot 6](./assets/screenshot6.png)
 
 ## 🙋‍♂️ Author
 
