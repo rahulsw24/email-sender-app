@@ -15,7 +15,7 @@ function App() {
     setLoading(true);
     toast.loading("Generating email...");
     try {
-      const response = await axios.post("http://localhost:3000/generate", {
+      const response = await axios.post("https://email-sender-app-mnov.onrender.com/generate", {
         prompt,
         tone,
       });
@@ -38,7 +38,7 @@ function App() {
     setLoading(true);
     toast.loading("Sending email...");
     try {
-      const res = await axios.post("http://localhost:3000/send", {
+      const res = await axios.post("https://email-sender-app-mnov.onrender.com/send", {
         recipients,
         subject,
         emailBody: generatedEmail,
