@@ -4,6 +4,8 @@ const nodemailer = require("nodemailer");
 const Together = require("together-ai");
 require("dotenv").config();
 
+const PORT = 3000 || process.env.PORT;
+
 const app = express();
 app.use(cors());
 app.use(express.json());
@@ -80,4 +82,4 @@ app.post("/send", async (req, res) => {
   }
 });
 
-app.listen(3000, () => console.log("Server running on http://localhost:3000"));
+app.listen(PORT, () => console.log(`Server running on ${PORT}`));
